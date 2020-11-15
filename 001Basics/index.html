@@ -6,18 +6,35 @@
     <style type="text/css">
         body{
             background-image: url("images/0.jpg");
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes myfirst{
+            from{opacity: 0}
+            to{opacity: 100}
+        }
+        #a{
+            color: azure;
+        }
+       page{
+            font-size: 100px;
+            position: absolute;
+            width:100%;
+           text-align:center;
+            animation: myfirstani 2s infinite;
         }
     </style>
     <script>
-        alert("我们恋爱吧")
+        //alert("我们恋爱吧")
        // alert("我们恋爱吧")
         //alert("我们恋爱吧")
         //alert("我们恋爱吧")
     </script>
 </head>
 <body>
-<h>古诗</h>
-<p>山有木兮木有枝，</p>
+<page id="a">古诗</page>
 </body>
 </html>
-
